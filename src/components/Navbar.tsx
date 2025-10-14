@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, Book, Scroll } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -64,6 +64,22 @@ const Navbar = () => {
                 )}
               </Link>
             ))}
+            
+            <DropdownMenu>
+              <DropdownMenuTrigger className="relative text-sm font-semibold tracking-wide transition-colors hover:text-primary text-foreground flex items-center gap-1 outline-none">
+                LIBRARY
+                <ChevronDown className="h-4 w-4" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="bg-background/95 backdrop-blur-lg border-border">
+                <DropdownMenuItem asChild>
+                  <Link to="/ancient-scripture" className="flex items-center gap-2 cursor-pointer">
+                    <Scroll className="h-4 w-4" />
+                    Ancient Scripture
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+
             <Button variant="outline" className="border-primary/30 hover:border-primary hover:bg-primary/10">
               Login
             </Button>
@@ -94,6 +110,22 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
+              
+              <DropdownMenu>
+                <DropdownMenuTrigger className="text-sm font-semibold tracking-wide transition-colors hover:text-primary text-foreground flex items-center gap-1 outline-none">
+                  LIBRARY
+                  <ChevronDown className="h-4 w-4" />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="bg-background/95 backdrop-blur-lg border-border">
+                  <DropdownMenuItem asChild>
+                    <Link to="/ancient-scripture" className="flex items-center gap-2 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
+                      <Scroll className="h-4 w-4" />
+                      Ancient Scripture
+                    </Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+
               <Button variant="outline" className="border-primary/30 hover:border-primary hover:bg-primary/10 w-full">
                 Login
               </Button>
