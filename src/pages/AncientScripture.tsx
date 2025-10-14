@@ -1,7 +1,8 @@
-import { Book, BookOpen, Scroll, History, BookMarked, ExternalLink } from "lucide-react";
+import { Book, BookOpen, Scroll, History, BookMarked, ExternalLink, Download, FileText } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const AncientScripture = () => {
   const sections = [
@@ -9,7 +10,8 @@ const AncientScripture = () => {
       id: "history",
       title: "History",
       icon: History,
-      content: "Hindu scriptures have a rich history spanning thousands of years, forming the foundation of one of the world's oldest living religions. These sacred texts evolved through oral traditions before being documented, preserving ancient wisdom, philosophical insights, and spiritual practices that continue to guide millions today."
+      content: "Hindu scriptures have a rich history spanning thousands of years, forming the foundation of one of the world's oldest living religions. These sacred texts evolved through oral traditions before being documented, preserving ancient wisdom, philosophical insights, and spiritual practices that continue to guide millions today.",
+      books: []
     },
     {
       id: "shruti",
@@ -18,11 +20,23 @@ const AncientScripture = () => {
       subsections: [
         {
           title: "Vedas",
-          content: "The Vedas are the most ancient Hindu scriptures, considered divinely revealed (shruti). They consist of four collections: Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains hymns, mantras, and rituals that form the bedrock of Hindu philosophy and practice."
+          content: "The Vedas are the most ancient Hindu scriptures, considered divinely revealed (shruti). They consist of four collections: Rigveda, Yajurveda, Samaveda, and Atharvaveda. Each Veda contains hymns, mantras, and rituals that form the bedrock of Hindu philosophy and practice.",
+          books: [
+            { title: "Rigveda - Complete Text", author: "Sanskrit-English Translation", pages: 1028 },
+            { title: "Yajurveda Samhita", author: "Translated by Ralph T.H. Griffith", pages: 652 },
+            { title: "Samaveda - Sacred Chants", author: "With Notation Guide", pages: 445 },
+            { title: "Atharvaveda Collection", author: "Complete Hymns", pages: 892 }
+          ]
         },
         {
           title: "Upanishads",
-          content: "The Upanishads are philosophical texts that explore the nature of reality, the self (Atman), and the ultimate reality (Brahman). They represent the culmination of Vedic thought and are considered the foundation of Vedanta philosophy, emphasizing meditation, morality, and the pursuit of knowledge."
+          content: "The Upanishads are philosophical texts that explore the nature of reality, the self (Atman), and the ultimate reality (Brahman). They represent the culmination of Vedic thought and are considered the foundation of Vedanta philosophy, emphasizing meditation, morality, and the pursuit of knowledge.",
+          books: [
+            { title: "The Principal Upanishads", author: "Translated by S. Radhakrishnan", pages: 958 },
+            { title: "Isha Upanishad", author: "With Commentary", pages: 124 },
+            { title: "Katha Upanishad", author: "Complete Translation", pages: 156 },
+            { title: "Mandukya Upanishad", author: "With Gaudapada Karika", pages: 203 }
+          ]
         }
       ]
     },
@@ -33,15 +47,33 @@ const AncientScripture = () => {
       subsections: [
         {
           title: "Puranas",
-          content: "The Puranas are encyclopedic texts that contain stories of creation, genealogies of gods and sages, and accounts of cosmic cycles. The 18 major Puranas include the Vishnu Purana, Shiva Purana, and Bhagavata Purana, each dedicated to different deities and aspects of Hindu cosmology."
+          content: "The Puranas are encyclopedic texts that contain stories of creation, genealogies of gods and sages, and accounts of cosmic cycles. The 18 major Puranas include the Vishnu Purana, Shiva Purana, and Bhagavata Purana, each dedicated to different deities and aspects of Hindu cosmology.",
+          books: [
+            { title: "Vishnu Purana", author: "H.H. Wilson Translation", pages: 742 },
+            { title: "Shiva Purana - Complete", author: "Ancient Wisdom Series", pages: 1245 },
+            { title: "Bhagavata Purana (Srimad Bhagavatam)", author: "18 Volumes Complete", pages: 3824 },
+            { title: "Garuda Purana", author: "Traditional Text", pages: 567 }
+          ]
         },
         {
           title: "Mahabharata",
-          content: "The Mahabharata is one of the longest epic poems in the world, narrating the conflict between the Pandavas and Kauravas. It contains the Bhagavad Gita, a philosophical dialogue between Prince Arjuna and Lord Krishna, which addresses duty, righteousness, and the path to spiritual liberation."
+          content: "The Mahabharata is one of the longest epic poems in the world, narrating the conflict between the Pandavas and Kauravas. It contains the Bhagavad Gita, a philosophical dialogue between Prince Arjuna and Lord Krishna, which addresses duty, righteousness, and the path to spiritual liberation.",
+          books: [
+            { title: "The Mahabharata - Complete Epic", author: "Translated by Kisari Mohan Ganguli", pages: 5432 },
+            { title: "Bhagavad Gita", author: "With Commentary by Swami Sivananda", pages: 342 },
+            { title: "Mahabharata - Abridged Version", author: "Retold by C. Rajagopalachari", pages: 456 },
+            { title: "The Bhagavad Gita As It Is", author: "A.C. Bhaktivedanta Swami", pages: 928 }
+          ]
         },
         {
           title: "Ramayana",
-          content: "The Ramayana, composed by sage Valmiki, tells the story of Prince Rama's quest to rescue his wife Sita from the demon king Ravana. This epic embodies ideals of dharma, devotion, and moral conduct, making it one of the most beloved texts in Hindu tradition."
+          content: "The Ramayana, composed by sage Valmiki, tells the story of Prince Rama's quest to rescue his wife Sita from the demon king Ravana. This epic embodies ideals of dharma, devotion, and moral conduct, making it one of the most beloved texts in Hindu tradition.",
+          books: [
+            { title: "Valmiki Ramayana - Complete", author: "Sanskrit-English Edition", pages: 2145 },
+            { title: "Ramcharitmanas", author: "Goswami Tulsidas", pages: 892 },
+            { title: "The Ramayana", author: "Translated by Ralph T.H. Griffith", pages: 645 },
+            { title: "Adhyatma Ramayana", author: "Spiritual Version", pages: 534 }
+          ]
         }
       ]
     },
@@ -49,13 +81,20 @@ const AncientScripture = () => {
       id: "other-texts",
       title: "Other Hindu Texts",
       icon: BookMarked,
-      content: "Beyond the major scriptures, Hindu literature includes the Dharma Shastras (law books), Agamas (ritualistic texts), Tantras (esoteric teachings), Bhakti literature (devotional poetry), and numerous commentaries by great scholars. These texts cover ethics, law, temple architecture, yoga, meditation, and devotional practices."
+      content: "Beyond the major scriptures, Hindu literature includes the Dharma Shastras (law books), Agamas (ritualistic texts), Tantras (esoteric teachings), Bhakti literature (devotional poetry), and numerous commentaries by great scholars. These texts cover ethics, law, temple architecture, yoga, meditation, and devotional practices.",
+      books: [
+        { title: "Yoga Sutras of Patanjali", author: "With Commentary", pages: 245 },
+        { title: "Manusmriti (Laws of Manu)", author: "Ancient Law Text", pages: 456 },
+        { title: "Brahma Sutras", author: "Vedanta Philosophy", pages: 623 },
+        { title: "Thirukkural", author: "Tamil Classic", pages: 324 }
+      ]
     },
     {
       id: "historical-significance",
       title: "Historical Significance",
       icon: Scroll,
-      content: "Hindu scriptures have profoundly influenced Indian culture, philosophy, art, and social structures for millennia. They have shaped ethical frameworks, inspired classical arts, influenced scientific inquiry, and provided spiritual guidance. Their teachings on universal truths, meditation, and self-realization have gained global recognition and continue to inspire seekers worldwide."
+      content: "Hindu scriptures have profoundly influenced Indian culture, philosophy, art, and social structures for millennia. They have shaped ethical frameworks, inspired classical arts, influenced scientific inquiry, and provided spiritual guidance. Their teachings on universal truths, meditation, and self-realization have gained global recognition and continue to inspire seekers worldwide.",
+      books: []
     }
   ];
 
@@ -151,14 +190,96 @@ const AncientScripture = () => {
                   {section.subsections ? (
                     <div className="space-y-6">
                       {section.subsections.map((subsection, idx) => (
-                        <div key={idx} className="border-l-4 border-primary/30 pl-6">
-                          <h3 className="text-xl font-semibold mb-3 text-primary">{subsection.title}</h3>
-                          <p className="text-muted-foreground leading-relaxed">{subsection.content}</p>
+                        <div key={idx}>
+                          <div className="border-l-4 border-primary/30 pl-6 mb-4">
+                            <h3 className="text-xl font-semibold mb-3 text-primary">{subsection.title}</h3>
+                            <p className="text-muted-foreground leading-relaxed">{subsection.content}</p>
+                          </div>
+                          
+                          {/* PDF Books Section */}
+                          {subsection.books && subsection.books.length > 0 && (
+                            <div className="ml-6 mt-4">
+                              <div className="flex items-center gap-2 mb-3">
+                                <FileText className="w-5 h-5 text-primary" />
+                                <h4 className="text-lg font-semibold">Available Books (PDF)</h4>
+                              </div>
+                              <div className="grid md:grid-cols-2 gap-4">
+                                {subsection.books.map((book, bookIdx) => (
+                                  <div
+                                    key={bookIdx}
+                                    className="glass-card p-4 hover:border-primary/50 transition-all group"
+                                  >
+                                    <div className="flex items-start gap-3">
+                                      <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center flex-shrink-0">
+                                        <Book className="w-5 h-5 text-primary" />
+                                      </div>
+                                      <div className="flex-1 min-w-0">
+                                        <h5 className="font-semibold text-sm mb-1 line-clamp-2">{book.title}</h5>
+                                        <p className="text-xs text-muted-foreground mb-2">{book.author}</p>
+                                        <div className="flex items-center justify-between">
+                                          <span className="text-xs text-muted-foreground">{book.pages} pages</span>
+                                          <Button
+                                            size="sm"
+                                            variant="ghost"
+                                            className="h-7 text-xs hover:text-primary group-hover:bg-primary/10"
+                                          >
+                                            <Download className="w-3 h-3 mr-1" />
+                                            Download
+                                          </Button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       ))}
                     </div>
                   ) : (
-                    <p className="text-muted-foreground leading-relaxed">{section.content}</p>
+                    <>
+                      <p className="text-muted-foreground leading-relaxed mb-4">{section.content}</p>
+                      
+                      {/* PDF Books Section for main sections */}
+                      {section.books && section.books.length > 0 && (
+                        <div className="mt-6">
+                          <div className="flex items-center gap-2 mb-4">
+                            <FileText className="w-5 h-5 text-primary" />
+                            <h4 className="text-lg font-semibold">Available Books (PDF)</h4>
+                          </div>
+                          <div className="grid md:grid-cols-2 gap-4">
+                            {section.books.map((book, bookIdx) => (
+                              <div
+                                key={bookIdx}
+                                className="glass-card p-4 hover:border-primary/50 transition-all group"
+                              >
+                                <div className="flex items-start gap-3">
+                                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center flex-shrink-0">
+                                    <Book className="w-5 h-5 text-primary" />
+                                  </div>
+                                  <div className="flex-1 min-w-0">
+                                    <h5 className="font-semibold text-sm mb-1 line-clamp-2">{book.title}</h5>
+                                    <p className="text-xs text-muted-foreground mb-2">{book.author}</p>
+                                    <div className="flex items-center justify-between">
+                                      <span className="text-xs text-muted-foreground">{book.pages} pages</span>
+                                      <Button
+                                        size="sm"
+                                        variant="ghost"
+                                        className="h-7 text-xs hover:text-primary group-hover:bg-primary/10"
+                                      >
+                                        <Download className="w-3 h-3 mr-1" />
+                                        Download
+                                      </Button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </>
                   )}
                 </Card>
               </div>
