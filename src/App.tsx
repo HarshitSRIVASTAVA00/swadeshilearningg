@@ -9,6 +9,7 @@ import Courses from "./pages/Courses";
 import Teach from "./pages/Teach";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
+import AncientScripture from "./pages/AncientScripture";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/teach" element={<Teach />} />
           <Route path="/community" element={<Community />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/ancient-scripture" element={<AncientScripture />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
