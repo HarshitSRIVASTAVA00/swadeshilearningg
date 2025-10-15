@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown, Book, Scroll } from "lucide-react";
+import { Menu, X, ChevronDown, Scroll } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ThemeToggle from "@/components/ThemeToggle";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -80,9 +81,13 @@ const Navbar = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <Button variant="outline" className="border-primary/30 hover:border-primary hover:bg-primary/10">
-              Login
-            </Button>
+            <ThemeToggle />
+            
+            <Link to="/dashboard">
+              <Button className="bg-gradient-to-r from-primary to-secondary">
+                Dashboard
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -126,9 +131,14 @@ const Navbar = () => {
                 </DropdownMenuContent>
               </DropdownMenu>
 
-              <Button variant="outline" className="border-primary/30 hover:border-primary hover:bg-primary/10 w-full">
-                Login
-              </Button>
+              <div className="flex gap-2 items-center">
+                <ThemeToggle />
+                <Link to="/dashboard" className="flex-1">
+                  <Button className="bg-gradient-to-r from-primary to-secondary w-full">
+                    Dashboard
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         )}

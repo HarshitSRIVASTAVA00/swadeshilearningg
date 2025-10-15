@@ -1,0 +1,113 @@
+{
+  "courses": [
+    {
+      "id": "web-dev-basics",
+      "title": "Web Development Basics",
+      "category": "tech",
+      "description": "Learn HTML, CSS, and JavaScript from scratch. Build your first website and create interactive web applications.",
+      "skillPoints": 250,
+      "duration": "8 weeks",
+      "level": "Beginner",
+      "instructor": "Rahul Kumar",
+      "rating": 4.8,
+      "enrolled": 342
+    },
+    {
+      "id": "traditional-pottery",
+      "title": "Traditional Indian Pottery",
+      "category": "arts",
+      "description": "Master the ancient art of pottery with hands-on practice. Learn from traditional craftsmen and create beautiful pieces.",
+      "skillPoints": 200,
+      "duration": "6 weeks",
+      "level": "Beginner",
+      "instructor": "Kamala Devi",
+      "rating": 4.9,
+      "enrolled": 156
+    },
+    {
+      "id": "classical-music",
+      "title": "Indian Classical Music",
+      "category": "arts",
+      "description": "Learn tabla, sitar, or vocal music from experienced practitioners. Understand ragas and traditional compositions.",
+      "skillPoints": 300,
+      "duration": "12 weeks",
+      "level": "Intermediate",
+      "instructor": "Pandit Lakshmi Iyer",
+      "rating": 4.9,
+      "enrolled": 89
+    },
+    {
+      "id": "ayurveda-healing",
+      "title": "Ayurveda & Natural Healing",
+      "category": "wellness",
+      "description": "Understand Ayurvedic principles and natural remedies for wellness. Learn about doshas and herbal medicines.",
+      "skillPoints": 180,
+      "duration": "5 weeks",
+      "level": "Beginner",
+      "instructor": "Dr. Anjali Mehta",
+      "rating": 4.7,
+      "enrolled": 234
+    },
+    {
+      "id": "yoga-meditation",
+      "title": "Yoga & Meditation",
+      "category": "wellness",
+      "description": "Practice traditional yoga asanas and meditation techniques. Improve flexibility, strength, and mental clarity.",
+      "skillPoints": 150,
+      "duration": "4 weeks",
+      "level": "Beginner",
+      "instructor": "Swami Ramesh",
+      "rating": 4.8,
+      "enrolled": 567
+    },
+    {
+      "id": "sanskrit-language",
+      "title": "Sanskrit Language",
+      "category": "skills",
+      "description": "Explore the mother of all languages and ancient scriptures. Learn grammar, vocabulary, and classical texts.",
+      "skillPoints": 220,
+      "duration": "10 weeks",
+      "level": "Intermediate",
+      "instructor": "Prof. Sunita Sharma",
+      "rating": 4.6,
+      "enrolled": 123
+    },
+    {
+      "id": "indian-cuisine",
+      "title": "Indian Cuisine Mastery",
+      "category": "skills",
+      "description": "Cook authentic Indian dishes from different regions. Master spices, techniques, and traditional recipes.",
+      "skillPoints": 160,
+      "duration": "6 weeks",
+      "level": "Beginner",
+      "instructor": "Chef Vikram Singh",
+      "rating": 4.9,
+      "enrolled": 445
+    },
+    {
+      "id": "photography-basics",
+      "title": "Photography Basics",
+      "category": "arts",
+      "description": "Capture stunning photos with your smartphone or camera. Learn composition, lighting, and editing techniques.",
+      "skillPoints": 190,
+      "duration": "5 weeks",
+      "level": "Beginner",
+      "instructor": "Arjun Verma",
+      "rating": 4.7,
+      "enrolled": 298
+    }
+  ],
+  "categories": [
+    { "id": "all", "name": "All Courses", "count": 8 },
+    { "id": "tech", "name": "Technology", "count": 1 },
+    { "id": "arts", "name": "Arts & Crafts", "count": 3 },
+    { "id": "wellness", "name": "Wellness", "count": 2 },
+    { "id": "skills", "name": "Life Skills", "count": 2 }
+  ],
+  "stats": {
+    "totalCourses": 8,
+    "totalMentors": 1230,
+    "totalStudents": 5840,
+    "totalSkillPoints": 15000
+  }
+}

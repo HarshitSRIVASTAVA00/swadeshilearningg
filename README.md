@@ -1,73 +1,148 @@
-# Welcome to your Lovable project
+# Swadeshi Learning Platform
 
-## Project info
+> **Empowering Atmanirbhar Bharat through Skill Exchange**
 
-**URL**: https://lovable.dev/projects/03275110-ab7e-49ab-904d-31a3dada8f83
+A modern, gamified peer-to-peer learning platform where users exchange skills without money, earn skill points, and build a self-reliant India through collaborative education.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Skill Exchange System**: Learn by teaching what you know
+- **Gamification**: Earn skill points, badges, and climb leaderboards
+- **Swadeshi Knowledge Library**: Access ancient scriptures and Indian wisdom
+- **Multi-language Support**: Available in all major Indian languages
+- **Dark/Light Mode**: Fully themed with persistent preferences
+- **Progressive Web App**: Installable on mobile devices, works offline
+- **Responsive Design**: Optimized for all screen sizes
+- **Accessibility**: WCAG 2.1 compliant with semantic HTML
 
-**Use Lovable**
+## 📁 Project Structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/03275110-ab7e-49ab-904d-31a3dada8f83) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+swadeshi-learning/
+├── public/                # Static assets
+│   ├── manifest.json     # PWA manifest
+│   └── robots.txt        # SEO configuration
+├── src/
+│   ├── components/       # Reusable UI components
+│   │   ├── ui/          # Shadcn UI primitives
+│   │   ├── AnimatedSection.tsx
+│   │   ├── FeatureCard.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── StatsCard.tsx
+│   │   └── ThemeToggle.tsx
+│   ├── contexts/        # React Context providers
+│   │   └── ThemeContext.tsx
+│   ├── data/           # Mock API data (JSON)
+│   │   └── courses.json
+│   ├── hooks/          # Custom React hooks
+│   │   ├── use-mobile.tsx
+│   │   ├── use-toast.ts
+│   │   └── useIntersectionObserver.tsx
+│   ├── lib/           # Utilities
+│   │   └── utils.ts
+│   ├── pages/         # Route components
+│   │   ├── About.tsx
+│   │   ├── AncientScripture.tsx
+│   │   ├── Community.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Courses.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── Index.tsx
+│   │   ├── NotFound.tsx
+│   │   └── Teach.tsx
+│   ├── App.tsx        # Main app with routing
+│   ├── index.css      # Design system
+│   └── main.tsx       # Entry point
+├── index.html         # SEO meta tags
+├── tailwind.config.ts # Tailwind config
+└── vite.config.ts     # Build config
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Design System
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+All design tokens are defined in `src/index.css` using CSS variables.
 
-**Use GitHub Codespaces**
+### Color Palette (HSL format)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```css
+/* Primary - Saffron */
+--primary: 30 100% 60%
 
-## What technologies are used for this project?
+/* Secondary - Green */
+--secondary: 115 91% 28%
 
-This project is built with:
+/* Tertiary - Blue */
+--tertiary: 210 100% 55%
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Typography (Fluid responsive)
 
-## How can I deploy this project?
+```css
+--font-size-base: clamp(1rem, 0.9rem + 0.5vw, 1.125rem)
+--font-size-5xl: clamp(3rem, 2.25rem + 3vw, 4rem)
+```
 
-Simply open [Lovable](https://lovable.dev/projects/03275110-ab7e-49ab-904d-31a3dada8f83) and click on Share -> Publish.
+### Animations
 
-## Can I connect a custom domain to my Lovable project?
+- Intersection Observer for scroll animations
+- Smooth transitions with cubic-bezier easing
+- Glass morphism effects
 
-Yes, you can!
+## 🛠️ Installation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```bash
+npm install     # Install dependencies
+npm run dev     # Start dev server
+npm run build   # Build for production
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📱 PWA Features
+
+- Offline support via service worker
+- Installable on mobile devices
+- Optimized for mobile performance
+- 192x192 and 512x512 app icons
+
+## ♿ Accessibility
+
+- Semantic HTML5 (`<main>`, `<section>`, `<nav>`)
+- ARIA labels and roles
+- Keyboard navigation support
+- Color contrast ≥ 4.5:1
+
+## 📊 Mock API
+
+Course data in `src/data/courses.json`:
+
+```json
+{
+  "courses": [...],
+  "categories": [...],
+  "stats": {...}
+}
+```
+
+## 🌙 Dark Mode
+
+Toggle via ThemeContext with localStorage persistence.
+
+## Project Links
+
+**Lovable Project**: https://lovable.dev/projects/03275110-ab7e-49ab-904d-31a3dada8f83
+
+## Technologies
+
+- Vite + TypeScript + React
+- Shadcn UI + Tailwind CSS
+- React Router v6
+- Lucide React icons
+- Vite PWA Plugin
+
+## Deploy
+
+Click **Publish** in Lovable or run `npm run build` for static hosting.
+
+---
+
+**Made with ❤️ for Atmanirbhar Bharat**
