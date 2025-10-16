@@ -14,7 +14,11 @@
       "verified": true,
       "citation": "Bhagavad Gita, Chapter 2, Verse 47",
       "sanskritAvailable": true,
-      "file": "bhagavad-gita.pdf"
+      "file": "bhagavad-gita.pdf",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2388",
+      "pdfUrl": "https://archive.org/download/BhagavadGita_201411/Bhagavad-Gita.pdf",
+      "isPublicDomain": true,
+      "source": "Project Gutenberg"
     },
     {
       "id": "rig-veda",
@@ -30,7 +34,11 @@
       "verified": true,
       "citation": "Rig Veda 1.164.46",
       "sanskritAvailable": true,
-      "file": "rig-veda.pdf"
+      "file": "rig-veda.pdf",
+      "sourceUrl": "https://archive.org/details/RgVedaSanskrit",
+      "pdfUrl": "https://archive.org/download/RgVedaSanskrit/Rg-Veda-Sanskrit.pdf",
+      "isPublicDomain": true,
+      "source": "Internet Archive"
     },
     {
       "id": "upanishads",
@@ -46,7 +54,11 @@
       "verified": true,
       "citation": "Chandogya Upanishad 6.8.7",
       "sanskritAvailable": true,
-      "file": "upanishads.pdf"
+      "file": "upanishads.pdf",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/3283",
+      "pdfUrl": "https://archive.org/download/upanishads02mulluoft/upanishads02mulluoft.pdf",
+      "isPublicDomain": true,
+      "source": "Project Gutenberg"
     },
     {
       "id": "arthashastra",
@@ -62,7 +74,11 @@
       "verified": true,
       "citation": "Arthashastra, Book 1",
       "sanskritAvailable": false,
-      "file": "arthashastra.pdf"
+      "file": "arthashastra.pdf",
+      "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.530897",
+      "pdfUrl": "https://archive.org/download/in.ernet.dli.2015.530897/2015.530897.Kautilyas.pdf",
+      "isPublicDomain": true,
+      "source": "Digital Library of India"
     }
   ],
   "modernThinkers": [
@@ -80,7 +96,11 @@
       "verified": true,
       "citation": "Complete Works, Vol. 1",
       "sanskritAvailable": false,
-      "file": "vivekananda-complete-works.pdf"
+      "file": "vivekananda-complete-works.pdf",
+      "sourceUrl": "https://archive.org/details/completeworksofs01vive",
+      "pdfUrl": "https://archive.org/download/completeworksofs01vive/completeworksofs01vive.pdf",
+      "isPublicDomain": true,
+      "source": "Internet Archive"
     },
     {
       "id": "tagore",
@@ -96,7 +116,11 @@
       "verified": true,
       "citation": "Gitanjali, Poem 35",
       "sanskritAvailable": false,
-      "file": "gitanjali.pdf"
+      "file": "gitanjali.pdf",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7164",
+      "pdfUrl": "https://archive.org/download/gitanjali035944mbp/gitanjali035944mbp.pdf",
+      "isPublicDomain": true,
+      "source": "Project Gutenberg"
     },
     {
       "id": "apj-kalam",

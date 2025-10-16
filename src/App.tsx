@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
 import AncientScripture from "./pages/AncientScripture";
 import BharatiyaGyaanKosh from "./pages/BharatiyaGyaanKosh";
+import Quiz from "./pages/Quiz";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/ancient-scripture" element={<AncientScripture />} />
             <Route path="/bharatiya-gyaan-kosh" element={<BharatiyaGyaanKosh />} />
+            <Route path="/quiz" element={<Quiz />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

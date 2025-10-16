@@ -19,6 +19,10 @@ interface BookCardProps {
   citation: string;
   sanskritAvailable: boolean;
   file?: string;
+  sourceUrl?: string;
+  pdfUrl?: string;
+  isPublicDomain?: boolean;
+  source?: string;
   delay?: number;
 }
 
@@ -35,6 +39,10 @@ const BookCard = ({
   citation,
   sanskritAvailable,
   file,
+  sourceUrl,
+  pdfUrl,
+  isPublicDomain,
+  source,
   delay = 0
 }: BookCardProps) => {
   const [showSanskrit, setShowSanskrit] = useState(false);
@@ -63,12 +71,17 @@ const BookCard = ({
             )}
           </div>
           
-          <div className="flex gap-2 mt-2">
+          <div className="flex gap-2 mt-2 flex-wrap">
             <Badge variant="outline" className="text-xs">{theme}</Badge>
             {sanskritAvailable && (
               <Badge variant="outline" className="text-xs flex items-center gap-1">
                 <Languages className="h-3 w-3" />
                 Sanskrit
+              </Badge>
+            )}
+            {isPublicDomain && (
+              <Badge variant="secondary" className="text-xs bg-primary/10 text-primary">
+                Public Domain
               </Badge>
             )}
           </div>
@@ -98,7 +111,7 @@ const BookCard = ({
           </div>
         </CardContent>
 
-        <CardFooter className="relative flex gap-2">
+        <CardFooter className="relative flex gap-2 flex-wrap">
           <Dialog>
             <DialogTrigger asChild>
               <Button variant="default" className="flex-1 group/btn">
@@ -106,51 +119,10 @@ const BookCard = ({
                 Learn More
               </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
-              <DialogHeader>
-                <DialogTitle className="text-2xl gradient-text">{title}</DialogTitle>
-                <DialogDescription className="text-base">
-                  By {author} • {era}
-                </DialogDescription>
-              </DialogHeader>
-              
-              <div className="space-y-4 mt-4">
-                <div>
-                  <h4 className="font-semibold mb-2">Historical Background</h4>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{background}</p>
-                </div>
-
-                {sanskritAvailable && (
-                  <div className="flex items-center gap-2">
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      onClick={() => setShowSanskrit(!showSanskrit)}
-                      className="text-xs"
-                    >
-                      <Languages className="h-3 w-3 mr-1" />
-                      {showSanskrit ? "Show English" : "Show Sanskrit"}
-                    </Button>
-                  </div>
-                )}
-
-                <div className="glass-card p-4 rounded-lg border border-primary/20">
-                  <h4 className="font-semibold mb-2 text-sm">Key Teaching</h4>
-                  <p className="text-sm italic text-primary/90 leading-relaxed mb-2">
-                    "{keyQuote}"
-                  </p>
-                  <p className="text-xs text-muted-foreground">Source: {citation}</p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold mb-2">Modern Relevance</h4>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{relevanceToday}</p>
-                </div>
-              </div>
-            </DialogContent>
+...
           </Dialog>
 
-          {file && (
+          {(file || pdfUrl) && (
             <>
               <Button 
                 variant="outline" 
@@ -168,8 +140,9 @@ const BookCard = ({
                 asChild
               >
                 <a 
-                  href={`/books/${file}`} 
+                  href={pdfUrl || `/books/${file}`} 
                   download={file}
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Download className="h-4 w-4" />
@@ -177,19 +150,36 @@ const BookCard = ({
               </Button>
             </>
           )}
+          
+          {sourceUrl && (
+            <Button 
+              variant="outline" 
+              size="sm"
+              className="text-xs"
+              asChild
+            >
+              <a 
+                href={sourceUrl} 
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Source {source && `(${source})`}
+              </a>
+            </Button>
+          )}
         </CardFooter>
         
         {/* PDF Viewer Dialog */}
-        {file && (
+        {(file || pdfUrl) && (
           <Dialog open={showPdfViewer} onOpenChange={setShowPdfViewer}>
             <DialogContent className="max-w-5xl max-h-[90vh] p-0">
               <DialogHeader className="p-6 pb-0">
                 <DialogTitle className="gradient-text">{title}</DialogTitle>
-                <DialogDescription>By {author}</DialogDescription>
+                <DialogDescription>By {author} {isPublicDomain && `• ${source}`}</DialogDescription>
               </DialogHeader>
               <div className="w-full h-[75vh] p-6 pt-4">
                 <iframe
-                  src={`/books/${file}`}
+                  src={pdfUrl || `/books/${file}`}
                   className="w-full h-full rounded-lg border border-border"
                   title={`${title} PDF Viewer`}
                   loading="lazy"

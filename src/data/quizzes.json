@@ -1,0 +1,192 @@
+{
+  "quizzes": [
+    {
+      "id": "ancient-knowledge",
+      "title": "Ancient Indian Knowledge",
+      "description": "Test your knowledge of ancient Indian scriptures, philosophy, and wisdom",
+      "category": "Ancient Texts",
+      "duration": 600,
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "Who wrote the Arthashastra?",
+          "options": ["Chanakya", "Patanjali", "Kalidasa", "Aryabhata"],
+          "answer": "Chanakya",
+          "explanation": "Arthashastra was written by Chanakya, also known as Kautilya, during the Mauryan period. It covers statecraft, economic policy, and military strategy."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "Which is the oldest Veda?",
+          "options": ["Rigveda", "Yajurveda", "Samaveda", "Atharvaveda"],
+          "answer": "Rigveda",
+          "explanation": "The Rigveda is the oldest of the four Vedas, containing 1,028 hymns dedicated to various deities, composed around 1500-1200 BCE."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "The Bhagavad Gita is part of the Mahabharata.",
+          "answer": "true",
+          "explanation": "The Bhagavad Gita is a 700-verse Hindu scripture that is part of the epic Mahabharata, set as a conversation between Prince Arjuna and Lord Krishna."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "What does 'Tat Tvam Asi' mean?",
+          "options": ["You are That", "Truth alone triumphs", "Knowledge is power", "Duty first"],
+          "answer": "You are That",
+          "explanation": "'Tat Tvam Asi' is one of the Mahavakyas (great sayings) from the Chandogya Upanishad, expressing the unity of the individual soul with the universal consciousness."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "Which scripture says 'Truth is one; the wise call it by many names'?",
+          "options": ["Rigveda", "Bhagavad Gita", "Upanishads", "Arthashastra"],
+          "answer": "Rigveda",
+          "explanation": "This profound verse (Rigveda 1.164.46) expresses the concept of universal truth being expressed through different paths and names."
+        }
+      ]
+    },
+    {
+      "id": "modern-thinkers",
+      "title": "Modern Indian Thinkers",
+      "description": "Explore the wisdom of modern Indian philosophers and leaders",
+      "category": "Modern India",
+      "duration": 480,
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "Who said 'Arise, awake, and stop not until the goal is reached'?",
+          "options": ["Swami Vivekananda", "Mahatma Gandhi", "Rabindranath Tagore", "A.P.J. Abdul Kalam"],
+          "answer": "Swami Vivekananda",
+          "explanation": "This famous quote by Swami Vivekananda emphasizes determination, self-empowerment, and the relentless pursuit of one's goals."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "Rabindranath Tagore won the Nobel Prize for which work?",
+          "options": ["Gitanjali", "Gora", "The Home and the World", "Chokher Bali"],
+          "answer": "Gitanjali",
+          "explanation": "Tagore was awarded the Nobel Prize in Literature in 1913 for Gitanjali, a collection of devotional poems."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "A.P.J. Abdul Kalam was known as the 'Missile Man of India'.",
+          "answer": "true",
+          "explanation": "Dr. A.P.J. Abdul Kalam earned this title for his work on the development of ballistic missile and launch vehicle technology in India."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "Which modern thinker introduced Vedanta philosophy to the Western world?",
+          "options": ["Swami Vivekananda", "Aurobindo Ghosh", "Sarvepalli Radhakrishnan", "J. Krishnamurti"],
+          "answer": "Swami Vivekananda",
+          "explanation": "Swami Vivekananda's speech at the Parliament of the World's Religions in Chicago (1893) introduced Vedanta and Yoga to the West."
+        }
+      ]
+    },
+    {
+      "id": "scientific-heritage",
+      "title": "Indian Scientific Heritage",
+      "description": "Discover the contributions of ancient Indian scientists and mathematicians",
+      "category": "Science & Mathematics",
+      "duration": 540,
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "Who is credited with the concept of zero?",
+          "options": ["Aryabhata", "Brahmagupta", "Bhaskara", "Varahamihira"],
+          "answer": "Brahmagupta",
+          "explanation": "Brahmagupta was the first to formulate rules for arithmetic involving zero and negative numbers in his work Brahmasphutasiddhanta (628 CE)."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "Sushruta is known as the father of which medical field?",
+          "options": ["Surgery", "Ayurveda", "Anatomy", "Pharmacology"],
+          "answer": "Surgery",
+          "explanation": "Sushruta, author of the Sushruta Samhita, is considered the father of surgery for his pioneering work in plastic surgery and surgical techniques."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "Aryabhata proposed that the Earth rotates on its axis.",
+          "answer": "true",
+          "explanation": "Aryabhata (476-550 CE) was the first to propose that the Earth rotates on its axis daily, centuries before this was accepted in Europe."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "Who wrote the astronomical text 'Siddhanta Shiromani'?",
+          "options": ["Bhaskara II", "Aryabhata", "Varahamihira", "Brahmagupta"],
+          "answer": "Bhaskara II",
+          "explanation": "Bhaskara II (1114-1185 CE) wrote Siddhanta Shiromani, a comprehensive astronomical work covering mathematics, astronomy, and spherical trigonometry."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "The ancient Indian system of medicine is called:",
+          "options": ["Ayurveda", "Unani", "Siddha", "Homeopathy"],
+          "answer": "Ayurveda",
+          "explanation": "Ayurveda, meaning 'science of life', is an ancient Indian system of medicine dating back over 3,000 years, based on balancing bodily energies."
+        }
+      ]
+    },
+    {
+      "id": "daily-challenge",
+      "title": "Daily Knowledge Challenge",
+      "description": "Random questions from all categories - test your comprehensive knowledge",
+      "category": "Mixed",
+      "duration": 600,
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "What is the main theme of the Bhagavad Gita?",
+          "options": ["Duty and righteousness", "Love and devotion", "Wealth and prosperity", "Victory in war"],
+          "answer": "Duty and righteousness",
+          "explanation": "The Bhagavad Gita primarily teaches about dharma (duty), karma (action), and the path to self-realization through righteous living."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "Which poet wrote 'Where the mind is without fear'?",
+          "options": ["Rabindranath Tagore", "Mirza Ghalib", "Kalidasa", "Tulsidas"],
+          "answer": "Rabindranath Tagore",
+          "explanation": "This famous line is from Tagore's poem in Gitanjali, expressing his vision for an independent and enlightened India."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "Charaka is known for contributions to ancient Indian surgery.",
+          "answer": "false",
+          "explanation": "Charaka is known for the Charaka Samhita, a foundational text of Ayurveda focusing on internal medicine. Sushruta is known for surgery."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "The number system we use today originated in:",
+          "options": ["Ancient India", "Ancient Greece", "Ancient Egypt", "Ancient China"],
+          "answer": "Ancient India",
+          "explanation": "The decimal number system (including zero) and Arabic numerals originated in ancient India and were transmitted to the Arab world and then to Europe."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "Which Upanishad contains the teaching 'Tat Tvam Asi'?",
+          "options": ["Chandogya Upanishad", "Katha Upanishad", "Isha Upanishad", "Mundaka Upanishad"],
+          "answer": "Chandogya Upanishad",
+          "explanation": "The Chandogya Upanishad contains this great saying (Mahavakya) taught by sage Uddalaka to his son Svetaketu."
+        }
+      ]
+    }
+  ]
+}
