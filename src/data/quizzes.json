@@ -5,7 +5,7 @@
       "title": "Ancient Indian Knowledge",
       "description": "Test your knowledge of ancient Indian scriptures, philosophy, and wisdom",
       "category": "Ancient Texts",
-      "duration": 600,
+      "duration": 900,
       "difficulty": "medium",
       "questions": [
         {
@@ -46,6 +46,29 @@
           "options": ["Rigveda", "Bhagavad Gita", "Upanishads", "Arthashastra"],
           "answer": "Rigveda",
           "explanation": "This profound verse (Rigveda 1.164.46) expresses the concept of universal truth being expressed through different paths and names."
+        },
+        {
+          "id": 6,
+          "type": "mcq",
+          "question": "How many Upanishads are considered principal or major?",
+          "options": ["10", "13", "18", "108"],
+          "answer": "13",
+          "explanation": "There are 13 principal Upanishads, though over 200 Upanishads exist in total. These 13 are considered the most important philosophical texts."
+        },
+        {
+          "id": 7,
+          "type": "true-false",
+          "question": "The Vedas were originally transmitted orally before being written down.",
+          "answer": "true",
+          "explanation": "The Vedas were preserved through oral tradition for thousands of years with remarkable accuracy before being written down in the medieval period."
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "question": "Which text is known as the 'Song of God'?",
+          "options": ["Bhagavad Gita", "Sama Veda", "Ramayana", "Puranas"],
+          "answer": "Bhagavad Gita",
+          "explanation": "Bhagavad Gita literally means 'Song of God' and represents Lord Krishna's teachings to Arjuna on dharma, karma, and moksha."
         }
       ]
     },
@@ -54,7 +77,7 @@
       "title": "Modern Indian Thinkers",
       "description": "Explore the wisdom of modern Indian philosophers and leaders",
       "category": "Modern India",
-      "duration": 480,
+      "duration": 720,
       "difficulty": "easy",
       "questions": [
         {
@@ -87,6 +110,29 @@
           "options": ["Swami Vivekananda", "Aurobindo Ghosh", "Sarvepalli Radhakrishnan", "J. Krishnamurti"],
           "answer": "Swami Vivekananda",
           "explanation": "Swami Vivekananda's speech at the Parliament of the World's Religions in Chicago (1893) introduced Vedanta and Yoga to the West."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "Who founded the Sabarmati Ashram?",
+          "options": ["Mahatma Gandhi", "Vinoba Bhave", "Swami Vivekananda", "Aurobindo Ghosh"],
+          "answer": "Mahatma Gandhi",
+          "explanation": "Mahatma Gandhi established the Sabarmati Ashram in Ahmedabad in 1917, which became the center of India's freedom movement."
+        },
+        {
+          "id": 6,
+          "type": "true-false",
+          "question": "Rabindranath Tagore composed both the Indian and Bangladeshi national anthems.",
+          "answer": "true",
+          "explanation": "Tagore composed 'Jana Gana Mana' (India's national anthem) and 'Amar Sonar Bangla' (Bangladesh's national anthem)."
+        },
+        {
+          "id": 7,
+          "type": "mcq",
+          "question": "What was Dr. B.R. Ambedkar's role in independent India?",
+          "options": ["Chairman of the Drafting Committee", "First Prime Minister", "First President", "First Education Minister"],
+          "answer": "Chairman of the Drafting Committee",
+          "explanation": "Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Indian Constitution and is known as the Father of the Indian Constitution."
         }
       ]
     },
@@ -185,6 +231,366 @@
           "options": ["Chandogya Upanishad", "Katha Upanishad", "Isha Upanishad", "Mundaka Upanishad"],
           "answer": "Chandogya Upanishad",
           "explanation": "The Chandogya Upanishad contains this great saying (Mahavakya) taught by sage Uddalaka to his son Svetaketu."
+        }
+      ]
+    },
+    {
+      "id": "yoga-meditation",
+      "title": "Yoga & Meditation Philosophy",
+      "description": "Deep dive into the philosophy and practice of ancient yoga traditions",
+      "category": "Philosophy",
+      "duration": 600,
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "Who is considered the father of Yoga?",
+          "options": ["Patanjali", "Swami Vivekananda", "B.K.S. Iyengar", "Krishnamacharya"],
+          "answer": "Patanjali",
+          "explanation": "Patanjali is credited with compiling the Yoga Sutras, the foundational text of classical yoga philosophy, around 400 CE."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "How many limbs (ashtanga) are there in Patanjali's Yoga?",
+          "options": ["8", "6", "10", "12"],
+          "answer": "8",
+          "explanation": "Patanjali's Ashtanga Yoga consists of 8 limbs: Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, and Samadhi."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "Pranayama refers to physical postures in yoga.",
+          "answer": "false",
+          "explanation": "Pranayama refers to breath control techniques. Physical postures are called Asanas."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "What does 'Samadhi' mean in yoga philosophy?",
+          "options": ["Meditative absorption", "Breath control", "Physical posture", "Ethical restraint"],
+          "answer": "Meditative absorption",
+          "explanation": "Samadhi is the eighth and final limb of yoga, representing complete meditative absorption and union with the divine."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "Which text is known as the encyclopedia of yoga?",
+          "options": ["Hatha Yoga Pradipika", "Yoga Sutras", "Bhagavad Gita", "Upanishads"],
+          "answer": "Hatha Yoga Pradipika",
+          "explanation": "The Hatha Yoga Pradipika is a comprehensive manual on Hatha Yoga, covering asanas, pranayama, bandhas, and mudras."
+        },
+        {
+          "id": 6,
+          "type": "true-false",
+          "question": "The word 'Yoga' comes from the Sanskrit root 'Yuj' meaning to unite or join.",
+          "answer": "true",
+          "explanation": "Yoga derives from 'Yuj', symbolizing the union of individual consciousness with universal consciousness."
+        },
+        {
+          "id": 7,
+          "type": "mcq",
+          "question": "What are the Yamas in Patanjali's Yoga Sutras?",
+          "options": ["Ethical restraints", "Physical postures", "Breathing techniques", "Meditation practices"],
+          "answer": "Ethical restraints",
+          "explanation": "Yamas are the first limb of yoga, consisting of five ethical restraints: Ahimsa, Satya, Asteya, Brahmacharya, and Aparigraha."
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "question": "Which chakra is located at the crown of the head?",
+          "options": ["Sahasrara", "Ajna", "Vishuddha", "Anahata"],
+          "answer": "Sahasrara",
+          "explanation": "Sahasrara (Crown Chakra) is the seventh primary chakra, associated with spiritual connection and enlightenment."
+        }
+      ]
+    },
+    {
+      "id": "indian-architecture",
+      "title": "Indian Architecture & Arts",
+      "description": "Explore India's rich architectural heritage and classical arts",
+      "category": "Arts & Culture",
+      "duration": 660,
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "Which monument is known as the 'Symbol of Love'?",
+          "options": ["Taj Mahal", "Qutub Minar", "Red Fort", "Hawa Mahal"],
+          "answer": "Taj Mahal",
+          "explanation": "The Taj Mahal in Agra, built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal, is celebrated as a symbol of eternal love."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "The Sun Temple of Konark is dedicated to which deity?",
+          "options": ["Surya", "Shiva", "Vishnu", "Brahma"],
+          "answer": "Surya",
+          "explanation": "The 13th-century Konark Sun Temple in Odisha is dedicated to Surya, the Sun God, and is designed as a giant chariot."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "The Ajanta Caves contain Buddhist paintings and sculptures.",
+          "answer": "true",
+          "explanation": "The Ajanta Caves in Maharashtra feature ancient Buddhist cave paintings and rock-cut sculptures dating from the 2nd century BCE."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "How many classical dance forms are recognized in India?",
+          "options": ["8", "6", "10", "12"],
+          "answer": "8",
+          "explanation": "India recognizes 8 classical dance forms: Bharatanatyam, Kathak, Kathakali, Kuchipudi, Manipuri, Mohiniyattam, Odissi, and Sattriya."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "The Natya Shastra, ancient text on performing arts, was written by:",
+          "options": ["Bharata Muni", "Kalidasa", "Valmiki", "Vyasa"],
+          "answer": "Bharata Muni",
+          "explanation": "Bharata Muni's Natya Shastra (200 BCE - 200 CE) is the foundational treatise on theater, dance, and music in India."
+        },
+        {
+          "id": 6,
+          "type": "true-false",
+          "question": "The Ellora Caves feature only Hindu temples.",
+          "answer": "false",
+          "explanation": "The Ellora Caves in Maharashtra contain Hindu, Buddhist, and Jain monuments, showcasing religious harmony."
+        },
+        {
+          "id": 7,
+          "type": "mcq",
+          "question": "Which city is known as the 'Pink City' of India?",
+          "options": ["Jaipur", "Udaipur", "Jodhpur", "Bikaner"],
+          "answer": "Jaipur",
+          "explanation": "Jaipur, the capital of Rajasthan, is called the Pink City due to the distinctive pink-colored buildings in its old town."
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "question": "The Sanchi Stupa was built during which empire?",
+          "options": ["Mauryan Empire", "Gupta Empire", "Mughal Empire", "Chola Empire"],
+          "answer": "Mauryan Empire",
+          "explanation": "Emperor Ashoka commissioned the Great Stupa at Sanchi in the 3rd century BCE as a Buddhist monument."
+        }
+      ]
+    },
+    {
+      "id": "indian-mathematics",
+      "title": "Ancient Indian Mathematics",
+      "description": "Discover India's groundbreaking contributions to mathematics",
+      "category": "Science & Mathematics",
+      "duration": 540,
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "Who first used the concept of zero as a number?",
+          "options": ["Brahmagupta", "Aryabhata", "Bhaskara II", "Varahamihira"],
+          "answer": "Brahmagupta",
+          "explanation": "Brahmagupta (628 CE) was the first mathematician to treat zero as a number and formulate rules for arithmetic operations involving zero."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "The decimal place-value system originated in:",
+          "options": ["Ancient India", "Ancient Greece", "Ancient Egypt", "Ancient Babylon"],
+          "answer": "Ancient India",
+          "explanation": "The decimal place-value system and modern numerals (0-9) were developed in ancient India and later transmitted to the Arab world."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "Aryabhata calculated the value of Pi (π) accurately to four decimal places.",
+          "answer": "true",
+          "explanation": "Aryabhata calculated π as approximately 3.1416, which is accurate to four decimal places, in the 5th century CE."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "The Sulba Sutras contain knowledge of which mathematical concept?",
+          "options": ["Pythagorean theorem", "Calculus", "Algebra", "Trigonometry"],
+          "answer": "Pythagorean theorem",
+          "explanation": "The Sulba Sutras (800-500 BCE) contain geometric principles including the Pythagorean theorem, predating Pythagoras."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "Bhaskara II's work 'Lilavati' deals with:",
+          "options": ["Arithmetic and algebra", "Astronomy only", "Medicine", "Philosophy"],
+          "answer": "Arithmetic and algebra",
+          "explanation": "Lilavati is a mathematical treatise covering arithmetic, algebra, and geometry, written in elegant Sanskrit verse."
+        },
+        {
+          "id": 6,
+          "type": "true-false",
+          "question": "The concept of infinity was discussed in ancient Indian mathematics.",
+          "answer": "true",
+          "explanation": "Ancient Indian mathematicians like Jaina mathematicians classified infinities and worked with the concept of infinitesimals."
+        },
+        {
+          "id": 7,
+          "type": "mcq",
+          "question": "Who wrote the 'Aryabhatiya'?",
+          "options": ["Aryabhata", "Brahmagupta", "Varahamihira", "Bhaskara I"],
+          "answer": "Aryabhata",
+          "explanation": "Aryabhata authored the Aryabhatiya in 499 CE, a mathematical and astronomical treatise covering algebra, trigonometry, and astronomy."
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "question": "The Kerala School of Astronomy developed early concepts of:",
+          "options": ["Calculus", "Quantum mechanics", "Relativity", "Topology"],
+          "answer": "Calculus",
+          "explanation": "Madhava of Sangamagrama and the Kerala School developed infinite series and calculus concepts in the 14th-16th centuries."
+        }
+      ]
+    },
+    {
+      "id": "indian-languages",
+      "title": "Indian Languages & Literature",
+      "description": "Explore the linguistic diversity and literary heritage of India",
+      "category": "Languages",
+      "duration": 600,
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "How many languages are officially recognized by the Indian Constitution?",
+          "options": ["22", "18", "15", "28"],
+          "answer": "22",
+          "explanation": "The Eighth Schedule of the Indian Constitution recognizes 22 scheduled languages including Hindi, Bengali, Tamil, Telugu, and others."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "Which is the oldest written language still in use?",
+          "options": ["Sanskrit", "Tamil", "Latin", "Greek"],
+          "answer": "Tamil",
+          "explanation": "Tamil is one of the oldest living languages with a literary tradition dating back over 2,000 years."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "Sanskrit is the mother of all Indo-European languages.",
+          "answer": "false",
+          "explanation": "Sanskrit is not the mother but a sister language to other Indo-European languages, all descended from Proto-Indo-European."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "Who is known as the 'Bard of Bengal'?",
+          "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Kazi Nazrul Islam", "Sarat Chandra Chattopadhyay"],
+          "answer": "Rabindranath Tagore",
+          "explanation": "Rabindranath Tagore is celebrated as the Bard of Bengal for his profound contributions to Bengali literature and music."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "The epic Ramayana was written by:",
+          "options": ["Valmiki", "Vyasa", "Kalidasa", "Tulsidas"],
+          "answer": "Valmiki",
+          "explanation": "Sage Valmiki composed the original Sanskrit Ramayana, one of India's greatest epic poems."
+        },
+        {
+          "id": 6,
+          "type": "true-false",
+          "question": "The Devanagari script is used only for Hindi.",
+          "answer": "false",
+          "explanation": "Devanagari is used for multiple languages including Hindi, Sanskrit, Marathi, Nepali, and others."
+        },
+        {
+          "id": 7,
+          "type": "mcq",
+          "question": "Which language is known as the 'Italian of the East'?",
+          "options": ["Telugu", "Tamil", "Malayalam", "Kannada"],
+          "answer": "Telugu",
+          "explanation": "Telugu is called the 'Italian of the East' because every word ends with a vowel sound, similar to Italian."
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "question": "The Sangam literature is associated with which language?",
+          "options": ["Tamil", "Malayalam", "Kannada", "Telugu"],
+          "answer": "Tamil",
+          "explanation": "Sangam literature is a collection of ancient Tamil texts dating from 300 BCE to 300 CE."
+        }
+      ]
+    },
+    {
+      "id": "freedom-movement",
+      "title": "Indian Freedom Movement",
+      "description": "Test your knowledge of India's struggle for independence",
+      "category": "History",
+      "duration": 720,
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "question": "When did the Jallianwala Bagh massacre take place?",
+          "options": ["1919", "1920", "1857", "1942"],
+          "answer": "1919",
+          "explanation": "The Jallianwala Bagh massacre occurred on April 13, 1919, in Amritsar, when British troops fired on peaceful protesters."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "question": "Who gave the slogan 'Give me blood, and I will give you freedom'?",
+          "options": ["Subhas Chandra Bose", "Bhagat Singh", "Mahatma Gandhi", "Jawaharlal Nehru"],
+          "answer": "Subhas Chandra Bose",
+          "explanation": "Netaji Subhas Chandra Bose used this rallying cry to inspire Indians to join the Indian National Army."
+        },
+        {
+          "id": 3,
+          "type": "true-false",
+          "question": "The Quit India Movement was launched in 1942.",
+          "answer": "true",
+          "explanation": "Mahatma Gandhi launched the Quit India Movement on August 8, 1942, demanding an end to British rule."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "question": "Who was the first woman president of the Indian National Congress?",
+          "options": ["Annie Besant", "Sarojini Naidu", "Indira Gandhi", "Vijaya Lakshmi Pandit"],
+          "answer": "Annie Besant",
+          "explanation": "Annie Besant was elected as the first woman president of the Indian National Congress in 1917."
+        },
+        {
+          "id": 5,
+          "type": "mcq",
+          "question": "The Salt March (Dandi March) was undertaken in which year?",
+          "options": ["1930", "1920", "1942", "1947"],
+          "answer": "1930",
+          "explanation": "Mahatma Gandhi led the Salt March from March 12 to April 6, 1930, to protest the British salt monopoly."
+        },
+        {
+          "id": 6,
+          "type": "true-false",
+          "question": "Bhagat Singh was executed at the age of 23.",
+          "answer": "true",
+          "explanation": "Revolutionary freedom fighter Bhagat Singh was hanged on March 23, 1931, at the age of 23."
+        },
+        {
+          "id": 7,
+          "type": "mcq",
+          "question": "Who wrote 'Vande Mataram'?",
+          "options": ["Bankim Chandra Chatterjee", "Rabindranath Tagore", "Subramanya Bharati", "Sarojini Naidu"],
+          "answer": "Bankim Chandra Chatterjee",
+          "explanation": "Bankim Chandra Chatterjee composed 'Vande Mataram' in his novel Anandamath (1882), which became a rallying cry for independence."
+        },
+        {
+          "id": 8,
+          "type": "mcq",
+          "question": "The Indian National Congress was founded in which year?",
+          "options": ["1885", "1900", "1857", "1920"],
+          "answer": "1885",
+          "explanation": "The Indian National Congress was established in 1885 by Allan Octavian Hume, Dadabhai Naoroji, and Dinshaw Wacha."
         }
       ]
     }
