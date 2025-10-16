@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown, Scroll, BookOpen } from "lucide-react";
+import { Menu, X, ChevronDown, Scroll, BookOpen, Brain } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ThemeToggle from "@/components/ThemeToggle";
 import {
@@ -71,7 +71,7 @@ const Navbar = () => {
                 LIBRARY
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="bg-background/95 backdrop-blur-lg border-border">
+              <DropdownMenuContent className="bg-background/95 backdrop-blur-lg border-border z-50">
                 <DropdownMenuItem asChild>
                   <Link to="/bharatiya-gyaan-kosh" className="flex items-center gap-2 cursor-pointer">
                     <BookOpen className="h-4 w-4" />
@@ -82,6 +82,12 @@ const Navbar = () => {
                   <Link to="/ancient-scripture" className="flex items-center gap-2 cursor-pointer">
                     <Scroll className="h-4 w-4" />
                     Ancient Scripture
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/quiz" className="flex items-center gap-2 cursor-pointer">
+                    <Brain className="h-4 w-4" />
+                    Knowledge Quiz
                   </Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
@@ -127,7 +133,7 @@ const Navbar = () => {
                   LIBRARY
                   <ChevronDown className="h-4 w-4" />
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="bg-background/95 backdrop-blur-lg border-border">
+                <DropdownMenuContent className="bg-background/95 backdrop-blur-lg border-border z-50">
                   <DropdownMenuItem asChild>
                     <Link to="/bharatiya-gyaan-kosh" className="flex items-center gap-2 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
                       <BookOpen className="h-4 w-4" />
@@ -138,6 +144,12 @@ const Navbar = () => {
                     <Link to="/ancient-scripture" className="flex items-center gap-2 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
                       <Scroll className="h-4 w-4" />
                       Ancient Scripture
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/quiz" className="flex items-center gap-2 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
+                      <Brain className="h-4 w-4" />
+                      Knowledge Quiz
                     </Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
