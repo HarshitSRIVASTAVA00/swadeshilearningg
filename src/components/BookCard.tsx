@@ -18,6 +18,7 @@ interface BookCardProps {
   verified: boolean;
   citation: string;
   sanskritAvailable: boolean;
+  file?: string;
   delay?: number;
 }
 
@@ -33,9 +34,11 @@ const BookCard = ({
   verified,
   citation,
   sanskritAvailable,
+  file,
   delay = 0
 }: BookCardProps) => {
   const [showSanskrit, setShowSanskrit] = useState(false);
+  const [showPdfViewer, setShowPdfViewer] = useState(false);
 
   return (
     <AnimatedSection animation="slide-up" delay={delay}>
@@ -147,10 +150,54 @@ const BookCard = ({
             </DialogContent>
           </Dialog>
 
-          <Button variant="outline" size="icon" className="hover-glow">
-            <Download className="h-4 w-4" />
-          </Button>
+          {file && (
+            <>
+              <Button 
+                variant="outline" 
+                className="flex-1 hover-glow"
+                onClick={() => setShowPdfViewer(true)}
+              >
+                <ExternalLink className="h-4 w-4 mr-2" />
+                Read Online
+              </Button>
+              
+              <Button 
+                variant="outline" 
+                size="icon" 
+                className="hover-glow"
+                asChild
+              >
+                <a 
+                  href={`/books/${file}`} 
+                  download={file}
+                  rel="noopener noreferrer"
+                >
+                  <Download className="h-4 w-4" />
+                </a>
+              </Button>
+            </>
+          )}
         </CardFooter>
+        
+        {/* PDF Viewer Dialog */}
+        {file && (
+          <Dialog open={showPdfViewer} onOpenChange={setShowPdfViewer}>
+            <DialogContent className="max-w-5xl max-h-[90vh] p-0">
+              <DialogHeader className="p-6 pb-0">
+                <DialogTitle className="gradient-text">{title}</DialogTitle>
+                <DialogDescription>By {author}</DialogDescription>
+              </DialogHeader>
+              <div className="w-full h-[75vh] p-6 pt-4">
+                <iframe
+                  src={`/books/${file}`}
+                  className="w-full h-full rounded-lg border border-border"
+                  title={`${title} PDF Viewer`}
+                  loading="lazy"
+                />
+              </div>
+            </DialogContent>
+          </Dialog>
+        )}
       </Card>
     </AnimatedSection>
   );

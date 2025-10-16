@@ -13,7 +13,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Bhagavad Gita, Chapter 2, Verse 47",
-      "sanskritAvailable": true
+      "sanskritAvailable": true,
+      "file": "bhagavad-gita.pdf"
     },
     {
       "id": "rig-veda",
@@ -28,7 +29,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Rig Veda 1.164.46",
-      "sanskritAvailable": true
+      "sanskritAvailable": true,
+      "file": "rig-veda.pdf"
     },
     {
       "id": "upanishads",
@@ -43,7 +45,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Chandogya Upanishad 6.8.7",
-      "sanskritAvailable": true
+      "sanskritAvailable": true,
+      "file": "upanishads.pdf"
     },
     {
       "id": "arthashastra",
@@ -58,7 +61,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Arthashastra, Book 1",
-      "sanskritAvailable": false
+      "sanskritAvailable": false,
+      "file": "arthashastra.pdf"
     }
   ],
   "modernThinkers": [
@@ -75,7 +79,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Complete Works, Vol. 1",
-      "sanskritAvailable": false
+      "sanskritAvailable": false,
+      "file": "vivekananda-complete-works.pdf"
     },
     {
       "id": "tagore",
@@ -90,7 +95,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Gitanjali, Poem 35",
-      "sanskritAvailable": false
+      "sanskritAvailable": false,
+      "file": "gitanjali.pdf"
     },
     {
       "id": "apj-kalam",
@@ -105,7 +111,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Wings of Fire, Chapter 1",
-      "sanskritAvailable": false
+      "sanskritAvailable": false,
+      "file": "wings-of-fire.pdf"
     }
   ],
   "scientificHeritage": [
@@ -122,7 +129,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Aryabhatiya, Goladhyaya",
-      "sanskritAvailable": true
+      "sanskritAvailable": true,
+      "file": "aryabhatiya.pdf"
     },
     {
       "id": "sushruta-samhita",
@@ -137,7 +145,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Sushruta Samhita, Sutrasthana",
-      "sanskritAvailable": true
+      "sanskritAvailable": true,
+      "file": "sushruta-samhita.pdf"
     },
     {
       "id": "charaka-samhita",
@@ -152,7 +161,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Charaka Samhita, Sutrasthana 1.15",
-      "sanskritAvailable": true
+      "sanskritAvailable": true,
+      "file": "charaka-samhita.pdf"
     },
     {
       "id": "bhaskaracharya",
@@ -167,7 +177,8 @@
       "coverImage": "/placeholder.svg",
       "verified": true,
       "citation": "Lilavati, Chapter 1",
-      "sanskritAvailable": true
+      "sanskritAvailable": true,
+      "file": "lilavati.pdf"
     }
   ],
   "timeline": [
