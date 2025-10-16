@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown, Scroll } from "lucide-react";
+import { Menu, X, ChevronDown, Scroll, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ThemeToggle from "@/components/ThemeToggle";
 import {
@@ -73,6 +73,12 @@ const Navbar = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-background/95 backdrop-blur-lg border-border">
                 <DropdownMenuItem asChild>
+                  <Link to="/bharatiya-gyaan-kosh" className="flex items-center gap-2 cursor-pointer">
+                    <BookOpen className="h-4 w-4" />
+                    Bharatiya Gyaan Kosh
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
                   <Link to="/ancient-scripture" className="flex items-center gap-2 cursor-pointer">
                     <Scroll className="h-4 w-4" />
                     Ancient Scripture
@@ -122,6 +128,12 @@ const Navbar = () => {
                   <ChevronDown className="h-4 w-4" />
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="bg-background/95 backdrop-blur-lg border-border">
+                  <DropdownMenuItem asChild>
+                    <Link to="/bharatiya-gyaan-kosh" className="flex items-center gap-2 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
+                      <BookOpen className="h-4 w-4" />
+                      Bharatiya Gyaan Kosh
+                    </Link>
+                  </DropdownMenuItem>
                   <DropdownMenuItem asChild>
                     <Link to="/ancient-scripture" className="flex items-center gap-2 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
                       <Scroll className="h-4 w-4" />

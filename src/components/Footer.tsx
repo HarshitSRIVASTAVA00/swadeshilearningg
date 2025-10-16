@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { Twitter, Linkedin, Instagram, Mail } from "lucide-react";
+import DailyWisdom from "@/components/DailyWisdom";
+import scripturesData from "@/data/scriptures.json";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -7,6 +9,11 @@ const Footer = () => {
   return (
     <footer className="border-t border-border bg-card/50 backdrop-blur-sm mt-20">
       <div className="container mx-auto px-4 py-12">
+        {/* Daily Wisdom Section */}
+        <div className="mb-12 max-w-2xl mx-auto">
+          <DailyWisdom quotes={scripturesData.dailyWisdom} />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>

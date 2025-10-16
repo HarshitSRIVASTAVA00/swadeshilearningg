@@ -1,0 +1,289 @@
+{
+  "ancientTexts": [
+    {
+      "id": "bhagavad-gita",
+      "title": "Bhagavad Gita",
+      "category": "Ancient Texts",
+      "author": "Ved Vyasa",
+      "era": "3000 BCE",
+      "theme": "Philosophy",
+      "background": "A 700-verse Hindu scripture that is part of the Mahabharata. It presents a conversation between Prince Arjuna and Lord Krishna on the battlefield of Kurukshetra.",
+      "keyQuote": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन | You have the right to perform your duty, but not to the fruits of action.",
+      "relevanceToday": "Teaches duty, detachment, and selfless service - principles vital for modern leadership, ethics, and mental resilience in a fast-paced world.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Bhagavad Gita, Chapter 2, Verse 47",
+      "sanskritAvailable": true
+    },
+    {
+      "id": "rig-veda",
+      "title": "Rig Veda",
+      "category": "Ancient Texts",
+      "author": "Multiple Rishis",
+      "era": "1500 BCE",
+      "theme": "Cosmology",
+      "background": "The oldest of the four Vedas, containing 1,028 hymns dedicated to various deities. It explores creation, nature, and cosmic order.",
+      "keyQuote": "एकं सद्विप्रा बहुधा वदन्ति | Truth is one, the wise speak of it in many ways.",
+      "relevanceToday": "Emphasizes unity in diversity and the scientific spirit of inquiry - foundational to pluralism and innovation in modern education.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Rig Veda 1.164.46",
+      "sanskritAvailable": true
+    },
+    {
+      "id": "upanishads",
+      "title": "Upanishads",
+      "category": "Ancient Texts",
+      "author": "Various Sages",
+      "era": "800-200 BCE",
+      "theme": "Metaphysics",
+      "background": "A collection of philosophical texts forming the theoretical basis for Hinduism. They explore the nature of reality, self, and ultimate truth.",
+      "keyQuote": "तत्त्वमसि | Thou art that - You are the universal consciousness.",
+      "relevanceToday": "Encourages self-realization and inner exploration, relevant for mindfulness, psychology, and holistic well-being practices.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Chandogya Upanishad 6.8.7",
+      "sanskritAvailable": true
+    },
+    {
+      "id": "arthashastra",
+      "title": "Arthashastra",
+      "category": "Ancient Texts",
+      "author": "Chanakya (Kautilya)",
+      "era": "300 BCE",
+      "theme": "Statecraft",
+      "background": "An ancient treatise on politics, economics, military strategy, and governance. It provides practical wisdom on administration and diplomacy.",
+      "keyQuote": "The root of wealth is economic activity and lack of it brings material distress.",
+      "relevanceToday": "Offers timeless insights into economics, governance, and strategic thinking - applicable to business management and public policy today.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Arthashastra, Book 1",
+      "sanskritAvailable": false
+    }
+  ],
+  "modernThinkers": [
+    {
+      "id": "vivekananda",
+      "title": "Complete Works of Swami Vivekananda",
+      "category": "Modern Thinkers",
+      "author": "Swami Vivekananda",
+      "era": "1863-1902",
+      "theme": "Spirituality",
+      "background": "A spiritual leader who introduced Vedanta and Yoga to the Western world. His speeches emphasized strength, self-confidence, and service to humanity.",
+      "keyQuote": "Arise, awake, and stop not till the goal is reached.",
+      "relevanceToday": "Inspires youth empowerment, interfaith harmony, and character building - essential for creating confident, compassionate leaders.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Complete Works, Vol. 1",
+      "sanskritAvailable": false
+    },
+    {
+      "id": "tagore",
+      "title": "Gitanjali",
+      "category": "Modern Thinkers",
+      "author": "Rabindranath Tagore",
+      "era": "1861-1941",
+      "theme": "Literature",
+      "background": "Nobel Prize-winning poet, composer, and educator. His works blend spiritual depth with artistic beauty, celebrating humanity and nature.",
+      "keyQuote": "Where the mind is without fear and the head is held high.",
+      "relevanceToday": "Advocates for creative education, freedom of thought, and cultural synthesis - vital for progressive, inclusive learning environments.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Gitanjali, Poem 35",
+      "sanskritAvailable": false
+    },
+    {
+      "id": "apj-kalam",
+      "title": "Wings of Fire",
+      "category": "Modern Thinkers",
+      "author": "A.P.J. Abdul Kalam",
+      "era": "1931-2015",
+      "theme": "Science",
+      "background": "India's Missile Man and 11th President. His autobiography chronicles his journey from humble beginnings to becoming a scientist and leader.",
+      "keyQuote": "Dream is not that which you see while sleeping, it is something that does not let you sleep.",
+      "relevanceToday": "Motivates scientific temperament, perseverance, and nation-building - crucial for inspiring STEM education and innovation.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Wings of Fire, Chapter 1",
+      "sanskritAvailable": false
+    }
+  ],
+  "scientificHeritage": [
+    {
+      "id": "aryabhata",
+      "title": "Aryabhatiya",
+      "category": "Scientific Heritage",
+      "author": "Aryabhata",
+      "era": "476 CE",
+      "theme": "Mathematics",
+      "background": "A seminal work on mathematics and astronomy. Aryabhata calculated π accurately and explained planetary positions and eclipses.",
+      "keyQuote": "The Earth rotates on its axis and revolves around the Sun.",
+      "relevanceToday": "Demonstrates India's ancient contributions to mathematics and astronomy - inspiring scientific curiosity and pride in indigenous knowledge.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Aryabhatiya, Goladhyaya",
+      "sanskritAvailable": true
+    },
+    {
+      "id": "sushruta-samhita",
+      "title": "Sushruta Samhita",
+      "category": "Scientific Heritage",
+      "author": "Sushruta",
+      "era": "600 BCE",
+      "theme": "Medicine",
+      "background": "An ancient Sanskrit text on medicine and surgery. Sushruta is considered the father of surgery, detailing over 300 surgical procedures.",
+      "keyQuote": "The surgeon must possess a steady hand, keen vision, and fearless heart.",
+      "relevanceToday": "Highlights India's pioneering role in medical science - relevant for modern healthcare innovation and traditional medicine integration.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Sushruta Samhita, Sutrasthana",
+      "sanskritAvailable": true
+    },
+    {
+      "id": "charaka-samhita",
+      "title": "Charaka Samhita",
+      "category": "Scientific Heritage",
+      "author": "Charaka",
+      "era": "200 BCE",
+      "theme": "Ayurveda",
+      "background": "A foundational text of Ayurveda covering diagnosis, treatment, and prevention of diseases. It emphasizes holistic health and balance.",
+      "keyQuote": "Health is the foundation of virtue, prosperity, enjoyment, and salvation.",
+      "relevanceToday": "Promotes preventive healthcare and holistic wellness - increasingly relevant in modern integrative medicine and lifestyle management.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Charaka Samhita, Sutrasthana 1.15",
+      "sanskritAvailable": true
+    },
+    {
+      "id": "bhaskaracharya",
+      "title": "Lilavati",
+      "category": "Scientific Heritage",
+      "author": "Bhaskara II",
+      "era": "1114-1185 CE",
+      "theme": "Mathematics",
+      "background": "A mathematical treatise covering arithmetic, algebra, and geometry. Written in verse form, it makes complex concepts accessible and elegant.",
+      "keyQuote": "Mathematics is the foundation of all sciences.",
+      "relevanceToday": "Showcases creative pedagogy and mathematical excellence - inspiring innovative teaching methods in STEM education.",
+      "coverImage": "/placeholder.svg",
+      "verified": true,
+      "citation": "Lilavati, Chapter 1",
+      "sanskritAvailable": true
+    }
+  ],
+  "timeline": [
+    {
+      "era": "Vedic Age",
+      "period": "1500-500 BCE",
+      "innovations": "Composition of Vedas, development of Sanskrit, early mathematics, astronomy, and philosophical inquiry.",
+      "color": "from-amber-500 to-orange-500"
+    },
+    {
+      "era": "Upanishadic Period",
+      "period": "800-200 BCE",
+      "innovations": "Philosophical texts exploring consciousness, metaphysics, and the nature of reality. Birth of yoga and meditation practices.",
+      "color": "from-orange-500 to-red-500"
+    },
+    {
+      "era": "Mauryan Era",
+      "period": "322-185 BCE",
+      "innovations": "Chanakya's Arthashastra, spread of Buddhism, rock edicts, administrative systems, and economic theories.",
+      "color": "from-red-500 to-pink-500"
+    },
+    {
+      "era": "Gupta Golden Age",
+      "period": "320-550 CE",
+      "innovations": "Aryabhata's astronomy, decimal system, zero, advanced surgery by Sushruta, classical Sanskrit literature.",
+      "color": "from-pink-500 to-purple-500"
+    },
+    {
+      "era": "Medieval Period",
+      "period": "600-1500 CE",
+      "innovations": "Bhaskara's mathematics, Ayurvedic texts, temple architecture, classical music and dance forms.",
+      "color": "from-purple-500 to-indigo-500"
+    },
+    {
+      "era": "Renaissance Period",
+      "period": "1800-1947",
+      "innovations": "Swami Vivekananda's philosophy, Tagore's literature, freedom movement, modern education reforms.",
+      "color": "from-indigo-500 to-blue-500"
+    },
+    {
+      "era": "Modern India",
+      "period": "1947-Present",
+      "innovations": "Space exploration, IT revolution, pharmaceutical leadership, constitutional democracy, scientific research.",
+      "color": "from-blue-500 to-primary"
+    }
+  ],
+  "dailyWisdom": [
+    {
+      "text": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन",
+      "translation": "You have the right to perform your duty, but not to the fruits of action.",
+      "source": "Bhagavad Gita 2.47",
+      "category": "scripture"
+    },
+    {
+      "text": "यत्र नार्यस्तु पूज्यन्ते रमन्ते तत्र देवताः",
+      "translation": "Where women are honored, divinity blossoms there.",
+      "source": "Manu Smriti 3.56",
+      "category": "scripture"
+    },
+    {
+      "text": "Arise, awake, and stop not till the goal is reached.",
+      "translation": "Arise, awake, and stop not till the goal is reached.",
+      "source": "Swami Vivekananda",
+      "category": "modern"
+    },
+    {
+      "text": "Education is the most powerful weapon which you can use to change the world.",
+      "translation": "Education is the most powerful weapon which you can use to change the world.",
+      "source": "A.P.J. Abdul Kalam",
+      "category": "modern"
+    },
+    {
+      "text": "सत्यमेव जयते",
+      "translation": "Truth alone triumphs.",
+      "source": "Mundaka Upanishad 3.1.6",
+      "category": "scripture"
+    },
+    {
+      "text": "Before you speak, let your words pass through three gates: Is it true? Is it necessary? Is it kind?",
+      "translation": "Before you speak, let your words pass through three gates: Is it true? Is it necessary? Is it kind?",
+      "source": "Chanakya Niti",
+      "category": "ancient"
+    }
+  ],
+  "multimedia": [
+    {
+      "title": "Bhagavad Gita Complete Recitation",
+      "type": "audio",
+      "duration": "3:45:00",
+      "description": "Complete Sanskrit recitation with accurate pronunciation",
+      "thumbnail": "/placeholder.svg",
+      "url": "#"
+    },
+    {
+      "title": "Understanding Vedic Mathematics",
+      "type": "video",
+      "duration": "45:30",
+      "description": "Introduction to ancient calculation techniques",
+      "thumbnail": "/placeholder.svg",
+      "url": "#"
+    },
+    {
+      "title": "Indian Astronomy Heritage",
+      "type": "video",
+      "duration": "28:15",
+      "description": "Aryabhata's contributions to modern astronomy",
+      "thumbnail": "/placeholder.svg",
+      "url": "#"
+    },
+    {
+      "title": "Chanakya's Leadership Principles",
+      "type": "video",
+      "duration": "52:00",
+      "description": "Ancient wisdom for modern governance",
+      "thumbnail": "/placeholder.svg",
+      "url": "#"
+    }
+  ]
+}
