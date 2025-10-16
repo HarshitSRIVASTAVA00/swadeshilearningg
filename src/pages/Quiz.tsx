@@ -136,7 +136,7 @@ const Quiz = () => {
     return (
       <div className="min-h-screen bg-background">
         <Navbar />
-        <main className="container mx-auto px-4 py-16">
+        <main className="container mx-auto px-4 pt-24 pb-16">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold gradient-text mb-4">Knowledge Quiz System</h1>
             <p className="text-muted-foreground mb-8">Test your understanding of Indian knowledge and heritage</p>
@@ -181,7 +181,7 @@ const Quiz = () => {
     return (
       <div className="min-h-screen bg-background">
         <Navbar />
-        <main className="container mx-auto px-4 py-8">
+        <main className="container mx-auto px-4 pt-24 pb-8">
           <div className="max-w-3xl mx-auto">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-2xl font-bold gradient-text">{selectedQuiz.title}</h2>
@@ -253,7 +253,7 @@ const Quiz = () => {
     return (
       <div className="min-h-screen bg-background">
         <Navbar />
-        <main className="container mx-auto px-4 py-16">
+        <main className="container mx-auto px-4 pt-24 pb-16">
           <div className="max-w-3xl mx-auto text-center">
             <Trophy className="h-20 w-20 mx-auto mb-4 text-primary" />
             <h1 className="text-4xl font-bold gradient-text mb-2">Quiz Complete!</h1>
