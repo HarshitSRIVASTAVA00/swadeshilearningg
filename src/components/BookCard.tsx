@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Book, Download, ExternalLink, CheckCircle2, Languages } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -45,8 +44,6 @@ const BookCard = ({
   source,
   delay = 0
 }: BookCardProps) => {
-  const [showSanskrit, setShowSanskrit] = useState(false);
-  const [showPdfViewer, setShowPdfViewer] = useState(false);
 
   return (
     <AnimatedSection animation="slide-up" delay={delay}>
@@ -122,72 +119,44 @@ const BookCard = ({
 ...
           </Dialog>
 
-          {(file || pdfUrl) && (
+          {(file || pdfUrl || sourceUrl) && (
             <>
               <Button 
                 variant="outline" 
                 className="flex-1 hover-glow"
-                onClick={() => setShowPdfViewer(true)}
-              >
-                <ExternalLink className="h-4 w-4 mr-2" />
-                Read Online
-              </Button>
-              
-              <Button 
-                variant="outline" 
-                size="icon" 
-                className="hover-glow"
                 asChild
               >
                 <a 
-                  href={pdfUrl || `/books/${file}`} 
-                  download={file}
+                  href={pdfUrl || sourceUrl || `/books/${file}`} 
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Download className="h-4 w-4" />
+                  <ExternalLink className="h-4 w-4 mr-2" />
+                  Read Online
                 </a>
               </Button>
+              
+              {pdfUrl && (
+                <Button 
+                  variant="outline" 
+                  size="icon" 
+                  className="hover-glow"
+                  asChild
+                >
+                  <a 
+                    href={pdfUrl} 
+                    download={file || title}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Download className="h-4 w-4" />
+                  </a>
+                </Button>
+              )}
             </>
           )}
           
-          {sourceUrl && (
-            <Button 
-              variant="outline" 
-              size="sm"
-              className="text-xs"
-              asChild
-            >
-              <a 
-                href={sourceUrl} 
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Source {source && `(${source})`}
-              </a>
-            </Button>
-          )}
         </CardFooter>
-        
-        {/* PDF Viewer Dialog */}
-        {(file || pdfUrl) && (
-          <Dialog open={showPdfViewer} onOpenChange={setShowPdfViewer}>
-            <DialogContent className="max-w-5xl max-h-[90vh] p-0">
-              <DialogHeader className="p-6 pb-0">
-                <DialogTitle className="gradient-text">{title}</DialogTitle>
-                <DialogDescription>By {author} {isPublicDomain && `• ${source}`}</DialogDescription>
-              </DialogHeader>
-              <div className="w-full h-[75vh] p-6 pt-4">
-                <iframe
-                  src={pdfUrl || `/books/${file}`}
-                  className="w-full h-full rounded-lg border border-border"
-                  title={`${title} PDF Viewer`}
-                  loading="lazy"
-                />
-              </div>
-            </DialogContent>
-          </Dialog>
-        )}
       </Card>
     </AnimatedSection>
   );
