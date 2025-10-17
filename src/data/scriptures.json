@@ -136,7 +136,10 @@
       "verified": true,
       "citation": "Wings of Fire, Chapter 1",
       "sanskritAvailable": false,
-      "file": "wings-of-fire.pdf"
+      "file": "wings-of-fire.pdf",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wings_of_Fire_(autobiography)",
+      "isPublicDomain": false,
+      "source": "Contemporary Work"
     }
   ],
   "scientificHeritage": [
@@ -154,7 +157,11 @@
       "verified": true,
       "citation": "Aryabhatiya, Goladhyaya",
       "sanskritAvailable": true,
-      "file": "aryabhatiya.pdf"
+      "file": "aryabhatiya.pdf",
+      "sourceUrl": "https://archive.org/details/AryabhatiyaOfAryabhataKripa-shankar-shukla-english",
+      "pdfUrl": "https://archive.org/download/AryabhatiyaOfAryabhataKripa-shankar-shukla-english/Aryabhatiya%20of%20Aryabhata%20-%20Kripa%20Shankar%20Shukla%20%28English%29.pdf",
+      "isPublicDomain": true,
+      "source": "Internet Archive"
     },
     {
       "id": "sushruta-samhita",
@@ -170,7 +177,11 @@
       "verified": true,
       "citation": "Sushruta Samhita, Sutrasthana",
       "sanskritAvailable": true,
-      "file": "sushruta-samhita.pdf"
+      "file": "sushruta-samhita.pdf",
+      "sourceUrl": "https://archive.org/details/SushrutaSamhitaVolume1",
+      "pdfUrl": "https://archive.org/download/SushrutaSamhitaVolume1/Sushruta%20Samhita%20Volume%201.pdf",
+      "isPublicDomain": true,
+      "source": "Internet Archive"
     },
     {
       "id": "charaka-samhita",
@@ -186,7 +197,11 @@
       "verified": true,
       "citation": "Charaka Samhita, Sutrasthana 1.15",
       "sanskritAvailable": true,
-      "file": "charaka-samhita.pdf"
+      "file": "charaka-samhita.pdf",
+      "sourceUrl": "https://archive.org/details/CharakaSamhitaVol.1",
+      "pdfUrl": "https://archive.org/download/CharakaSamhitaVol.1/Charaka%20Samhita%20Vol.%201.pdf",
+      "isPublicDomain": true,
+      "source": "Internet Archive"
     },
     {
       "id": "bhaskaracharya",
@@ -202,7 +217,11 @@
       "verified": true,
       "citation": "Lilavati, Chapter 1",
       "sanskritAvailable": true,
-      "file": "lilavati.pdf"
+      "file": "lilavati.pdf",
+      "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.283129",
+      "pdfUrl": "https://archive.org/download/in.ernet.dli.2015.283129/2015.283129.Lilavati_text.pdf",
+      "isPublicDomain": true,
+      "source": "Digital Library of India"
     }
   ],
   "timeline": [
