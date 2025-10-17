@@ -16,9 +16,9 @@
       "sanskritAvailable": true,
       "file": "bhagavad-gita.pdf",
       "sourceUrl": "https://www.gutenberg.org/ebooks/2388",
-      "pdfUrl": "https://archive.org/download/BhagavadGita_201411/Bhagavad-Gita.pdf",
+      "pdfUrl": "https://sacred-texts.com/hin/gita/index.htm",
       "isPublicDomain": true,
-      "source": "Project Gutenberg"
+      "source": "Sacred Texts Archive"
     },
     {
       "id": "rig-veda",
@@ -35,8 +35,8 @@
       "citation": "Rig Veda 1.164.46",
       "sanskritAvailable": true,
       "file": "rig-veda.pdf",
-      "sourceUrl": "https://archive.org/details/RgVedaSanskrit",
-      "pdfUrl": "https://archive.org/download/RgVedaSanskrit/Rg-Veda-Sanskrit.pdf",
+      "sourceUrl": "https://archive.org/details/rigvedasanhitasa01syaauoft",
+      "pdfUrl": "https://archive.org/details/rigvedasanhita01wils",
       "isPublicDomain": true,
       "source": "Internet Archive"
     },
@@ -56,7 +56,7 @@
       "sanskritAvailable": true,
       "file": "upanishads.pdf",
       "sourceUrl": "https://www.gutenberg.org/ebooks/3283",
-      "pdfUrl": "https://archive.org/download/upanishads02mulluoft/upanishads02mulluoft.pdf",
+      "pdfUrl": "https://gutenberg.org/cache/epub/3283/pg3283.html",
       "isPublicDomain": true,
       "source": "Project Gutenberg"
     },
@@ -76,7 +76,7 @@
       "sanskritAvailable": false,
       "file": "arthashastra.pdf",
       "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.530897",
-      "pdfUrl": "https://archive.org/download/in.ernet.dli.2015.530897/2015.530897.Kautilyas.pdf",
+      "pdfUrl": "https://archive.org/details/in.ernet.dli.2015.530897",
       "isPublicDomain": true,
       "source": "Digital Library of India"
     }
@@ -98,7 +98,7 @@
       "sanskritAvailable": false,
       "file": "vivekananda-complete-works.pdf",
       "sourceUrl": "https://archive.org/details/completeworksofs01vive",
-      "pdfUrl": "https://archive.org/download/completeworksofs01vive/completeworksofs01vive.pdf",
+      "pdfUrl": "https://archive.org/details/completeworksofs01vive",
       "isPublicDomain": true,
       "source": "Internet Archive"
     },
@@ -118,7 +118,7 @@
       "sanskritAvailable": false,
       "file": "gitanjali.pdf",
       "sourceUrl": "https://www.gutenberg.org/ebooks/7164",
-      "pdfUrl": "https://archive.org/download/gitanjali035944mbp/gitanjali035944mbp.pdf",
+      "pdfUrl": "https://www.gutenberg.org/ebooks/7164",
       "isPublicDomain": true,
       "source": "Project Gutenberg"
     },
@@ -159,7 +159,7 @@
       "sanskritAvailable": true,
       "file": "aryabhatiya.pdf",
       "sourceUrl": "https://archive.org/details/AryabhatiyaOfAryabhataKripa-shankar-shukla-english",
-      "pdfUrl": "https://archive.org/download/AryabhatiyaOfAryabhataKripa-shankar-shukla-english/Aryabhatiya%20of%20Aryabhata%20-%20Kripa%20Shankar%20Shukla%20%28English%29.pdf",
+      "pdfUrl": "https://archive.org/details/AryabhatiyaOfAryabhataKripa-shankar-shukla-english",
       "isPublicDomain": true,
       "source": "Internet Archive"
     },
@@ -179,7 +179,7 @@
       "sanskritAvailable": true,
       "file": "sushruta-samhita.pdf",
       "sourceUrl": "https://archive.org/details/SushrutaSamhitaVolume1",
-      "pdfUrl": "https://archive.org/download/SushrutaSamhitaVolume1/Sushruta%20Samhita%20Volume%201.pdf",
+      "pdfUrl": "https://archive.org/details/SushrutaSamhitaVolume1",
       "isPublicDomain": true,
       "source": "Internet Archive"
     },
@@ -199,7 +199,7 @@
       "sanskritAvailable": true,
       "file": "charaka-samhita.pdf",
       "sourceUrl": "https://archive.org/details/CharakaSamhitaVol.1",
-      "pdfUrl": "https://archive.org/download/CharakaSamhitaVol.1/Charaka%20Samhita%20Vol.%201.pdf",
+      "pdfUrl": "https://archive.org/details/CharakaSamhitaVol.1",
       "isPublicDomain": true,
       "source": "Internet Archive"
     },
@@ -219,7 +219,7 @@
       "sanskritAvailable": true,
       "file": "lilavati.pdf",
       "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.283129",
-      "pdfUrl": "https://archive.org/download/in.ernet.dli.2015.283129/2015.283129.Lilavati_text.pdf",
+      "pdfUrl": "https://archive.org/details/in.ernet.dli.2015.283129",
       "isPublicDomain": true,
       "source": "Digital Library of India"
     }
