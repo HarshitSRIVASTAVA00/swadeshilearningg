@@ -90,6 +90,12 @@ const Navbar = () => {
                     Knowledge Quiz
                   </Link>
                 </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/ai-intelligence" className="flex items-center gap-2 cursor-pointer">
+                    <Brain className="h-4 w-4" />
+                    AI Intelligence
+                  </Link>
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 
@@ -150,6 +156,12 @@ const Navbar = () => {
                     <Link to="/quiz" className="flex items-center gap-2 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
                       <Brain className="h-4 w-4" />
                       Knowledge Quiz
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link to="/ai-intelligence" className="flex items-center gap-2 cursor-pointer" onClick={() => setIsMobileMenuOpen(false)}>
+                      <Brain className="h-4 w-4" />
+                      AI Intelligence
                     </Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
