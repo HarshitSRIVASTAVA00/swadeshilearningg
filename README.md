@@ -1,4 +1,4 @@
-# Swadeshi Learning Platform
+ Swadeshi Learning Platform
 
 > **Empowering Atmanirbhar Bharat through Skill Exchange**
 
